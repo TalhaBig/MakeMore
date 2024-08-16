@@ -1,0 +1,76 @@
+{
+    "name": "TouchClickInputActions",
+    "maps": [
+        {
+            "name": "TouchClick",
+            "id": "fd8e403b-95df-4f14-8647-5e1e550605e2",
+            "actions": [
+                {
+                    "name": "TapContact",
+                    "type": "Button",
+                    "id": "425bd411-257d-4814-9a0c-b6a1f2cb4f1d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TapPosition",
+                    "type": "PassThrough",
+                    "id": "bac1a084-e27c-404c-b639-ca0bf4aa65fd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2589fa5d-deca-4a14-bd69-40dad1e0098b",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TapContact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dff3e55c-bc06-4e28-9b78-762d3eead821",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TapContact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e769278e-aff2-44ef-a343-90f8b7389517",
+                    "path": "<Touchscreen>/touch0/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TapPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "23d62ba6-a3a7-4cb8-9d32-53feb30d8c2a",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TapPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

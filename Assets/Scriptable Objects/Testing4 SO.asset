@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed06155180aba14ab62a53183309d59, type: 3}
+  m_Name: Testing4 SO
+  m_EditorClassIdentifier: 
+  InputModel: {fileID: 7534585291958350477, guid: 64fd79097de5433419a5027d22080396, type: 3}
+  OutputModel: {fileID: 7362639465949757947, guid: e11a74e8e99b9204b9a22fd4abef94fa, type: 3}
+  TimeToChange: 10
+  Value: 10
